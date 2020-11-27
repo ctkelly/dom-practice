@@ -6,9 +6,23 @@ paragraph.style.color = 'red';
 
 container.appendChild(paragraph);
 
-const heading = document.createElement('h3');
-heading.textContent = `I'm a blue h3!`;
-heading.style.color = 'blue';
+const headingThree = document.createElement('h3');
+headingThree.textContent = `I'm a blue h3!`;
+headingThree.style.color = 'blue';
 
-container.appendChild(heading);
+container.appendChild(headingThree);
+
+const div = document.createElement('div');
+div.style.backgroundColor = 'pink';
+div.style.border = 'solid';
+div.style.borderColor = 'black';
+div.style.height = '30px';
+
+/* const headingOne = document.createElement('h1');
+headingOne.textContent = `I'm in a div`;
+
+div.appendChild(headingOne); */
+
+container.appendChild(div);
+
 
