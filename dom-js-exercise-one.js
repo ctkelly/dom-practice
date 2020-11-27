@@ -16,12 +16,16 @@ const div = document.createElement('div');
 div.style.backgroundColor = 'pink';
 div.style.border = 'solid';
 div.style.borderColor = 'black';
-div.style.height = '30px';
 
-/* const headingOne = document.createElement('h1');
+const headingOne = document.createElement('h1');
 headingOne.textContent = `I'm in a div`;
 
-div.appendChild(headingOne); */
+div.appendChild(headingOne);
+
+const divParagraph = document.createElement('p');
+divParagraph.textContent = `ME TOO!`;
+
+div.appendChild(divParagraph);
 
 container.appendChild(div);
 
